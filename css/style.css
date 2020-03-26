@@ -22,15 +22,15 @@
 
 .score {
   opacity: 0;
-  -webkit-transition: opacity 0.5s ease 0.5s;
-  transition: opacity 0.5s ease 0.5s;
+  -webkit-transition: opacity 0.5s linear 0.5s;
+  transition: opacity 0.5s linear 0.5s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 50%;
+  width: 65%;
   padding-top: 10%;
   text-align: center;
 }
@@ -39,6 +39,10 @@
   text-align: center;
   padding-top: 5%;
   font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
 }
 
 .intro {
@@ -55,8 +59,8 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
 }
 
 .intro__title {
@@ -73,8 +77,8 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-transition: opacity 0.5s ease 0.5s;
-  transition: opacity 0.5s ease 0.5s;
+  -webkit-transition: opacity 0.5s linear 0.5s;
+  transition: opacity 0.5s linear 0.5s;
 }
 
 .match__title {
@@ -89,6 +93,11 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.c-hand {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .fadeOut {

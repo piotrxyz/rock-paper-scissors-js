@@ -1,0 +1,26 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "rock, paper and scissors game, written in vanilla javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrxyz/rock-paper-scissors-js.git"
+  },
+  "keywords": [
+    "rock",
+    "paper",
+    "and",
+    "scissors",
+    "game"
+  ],
+  "author": "Piotr K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotrxyz/rock-paper-scissors-js/issues"
+  },
+  "homepage": "https://github.com/piotrxyz/rock-paper-scissors-js#readme"
+}

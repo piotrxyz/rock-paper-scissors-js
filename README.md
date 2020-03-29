@@ -6,6 +6,7 @@ against computer.
 ## Instruction
 
 To play click 'Let's play' button.
+To reset your score refresh the page. 
 
 ## Live version
 
